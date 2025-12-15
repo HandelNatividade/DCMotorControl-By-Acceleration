@@ -271,7 +271,7 @@ void runSystemLoop() {
         if (measureState > 0) {
             double vPWM = estimarTensaoPeloPWM(pwmOutput);
             double vVib = estimarTensaoPeloPwr(currentAvgPwr);
-            double estRPM = estimarRpmPelaTensao(vPWM); // Usa V_PWM para estimativa rápida
+            double estRPM = estimarRpmPelaTensao(vVib); // Usa V_PWM para estimativa rápida
             
             if (measureState == 1) { // Excel
                 Serial.print(now / 1000.0, 1); Serial.print("\t"); 
