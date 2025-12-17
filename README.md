@@ -26,7 +26,9 @@ Este projeto implementa um sistema de controle para um motor DC utilizando um Ar
 
 
 <img width="780" height="400" alt="CIRCUITO-CD" src="https://github.com/user-attachments/assets/5413115c-058e-4019-b597-6457a2988567" />
+
   Esquemático para acionamento do Motor
+  
 
   
 
