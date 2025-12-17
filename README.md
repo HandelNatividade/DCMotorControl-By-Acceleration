@@ -1,5 +1,6 @@
+
 # DCMotorControl_Via_Acceleration
-O seguinte projeto, pretendido para a disciplina de Controle Digital almeja o controle de um motor DC de 12V por meio de um módulo acelerômetro do arduino. 
+O seguinte projeto, pretendido para a disciplina de Controle Digital almeja o controle de um motor DC de 12V por meio de um módulo acelerômetro do arduino.  Os códigos em Matlab foram utilizados para caracterização da planta e visualização dos resultados.
 
 # Controle de Motor DC via Análise de Vibração (ADXL345)
 
@@ -14,6 +15,7 @@ Este projeto implementa um sistema de controle para um motor DC utilizando um Ar
     * **Automático (RPM):** Controle em malha fechada.
     * **PRBS:** Sinal Pseudo-Aleatório para identificação de sistemas.
 * **Logs Flexíveis:** Modos distintos para análise em computador (Excel) ou leitura humana.
+<img width="1601" height="941" alt="image" src="https://github.com/user-attachments/assets/9b6225df-5913-4ad8-8e2d-1fe48984c56e" />
 
 ## 🛠️ Hardware Necessário
 
@@ -21,6 +23,12 @@ Este projeto implementa um sistema de controle para um motor DC utilizando um Ar
 * **Sensor de Vibração:** Acelerômetro ADXL345 (I2C).
 * **Atuador:** Motor DC com driver (ex: Ponte H).
 * **Sensor de Rotação (Opcional):** Sensor Hall (pino D2).
+
+
+<img width="780" height="400" alt="CIRCUITO-CD" src="https://github.com/user-attachments/assets/5413115c-058e-4019-b597-6457a2988567" />
+  Esquemático para acionamento do Motor
+
+  
 
 ## 🚀 Como Usar
 
